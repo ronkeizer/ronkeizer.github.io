@@ -4,7 +4,7 @@ title:  "Upgrading NONMEM to Yosemite"
 date:   2014-11-05 10:49:34
 categories: nonmem update
 ---
-Apple released their new OS (Yosemite) a few weeks ago. Unfortunately upgrading to the new system breaks the installation of NONMEM, PsN, and Pirana. Here's what I did to get up and running again. Altogether this should take less than 20 minutes. _Please note that I cannot be held liable for any damage cause directly or indirectly by following the advice bewlow!_
+Apple released their new OS (Yosemite) a few weeks ago. Unfortunately upgrading to the new system breaks the installation of NONMEM, PsN, and Pirana. Here's what I did to get up and running again. Altogether this should take less than 20 minutes. _Please note that I cannot be held liable for any damage caused directly or indirectly by following the advice below!_
 
 __Step 1__: You need to re-install gcc/gfortran. You can install from source, or from e.g. HomeBrew, but I just chose to take the binaries from [this page](http://hpc.sourceforge.net/) which had just updated their versions. Download gcc and gfortran for Yosemite. Then in the console run:
 
