@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Upgrading NONMEM to Yosemite"
-date:   2014-09-04 09:56:34
+date:   2014-11-05 10:49:34
 categories: nonmem update
 ---
 Apple released their new OS (Yosemite) a few weeks ago. Unfortunately upgrading to the new system breaks the installation of NONMEM, PsN, and Pirana. Here's what I did to get up and running again. Altogether this should take less than 20 minutes. _Please note that I cannot be held liable for any damage cause directly or indirectly by following the advice bewlow!_
 
-* Step 1: You need to re-install gcc/gfortran. You can install from source, or from e.g. HomeBrew, but I just chose to take the binaries from [this page](http://hpc.sourceforge.net/) which had just updated their versions. Download gcc and gfortran for Yosemite. Then in the console run:
+__Step 1__: You need to re-install gcc/gfortran. You can install from source, or from e.g. HomeBrew, but I just chose to take the binaries from [this page](http://hpc.sourceforge.net/) which had just updated their versions. Download gcc and gfortran for Yosemite. Then in the console run:
 
 {% highlight bash %}
 cd ~/Downloads
@@ -14,9 +14,9 @@ sudo tar -xvf gcc-5.0-bin.tar -C /
 sudo tar -xvf gfortran-5.0-bin.tar -C / 
 {% endhighlight %}
 
-* Step 2: Re-install the Apple developer tools for Yosemite. [Download](https://developer.apple.com/downloads/index.action#) and install the ones for OSX 10.10.
+__Step 2__: Re-install the Apple developer tools for Yosemite. [Download](https://developer.apple.com/downloads/index.action#) and install the ones for OSX 10.10.
 
-* Step 3: Now you are ready to re-install NONMEM. I used:
+__Step 3__: Now you are ready to re-install NONMEM. I used:
 
 {% highlight bash %}
 cd /Users/ronkeizer/Dropbox/Software/NONMEM/nm730CD_essential
@@ -25,7 +25,7 @@ sudo /bin/bash SETUP73 /Users/ronkeizer/Dropbox/Software/NONMEM/nm730CD_essentia
 
 (But change the source and target folders to your own of course!)
 
-* Step 4: Don't forget to update psn.conf if you installed to a new location. Use e.g.:
+__Step 4__: Don't forget to update psn.conf if you installed to a new location. Use e.g.:
 
 {% highlight bash %}
 sudo nano /Library/Perl/5.16/PsN_4_2_0/psn.conf
@@ -44,6 +44,6 @@ sudo cpan -i Math::Random
 sudo cpan -i Statistics::Distributions
 {% endhighlight %}
 
-* Step 5: To make Pirana work again, the only thing you need to do is re-install XQuartz, download [here](http://xquartz.macosforge.org/landing/)
+__Step 5__: To make Pirana work again, the only thing you need to do is re-install XQuartz, download [here](http://xquartz.macosforge.org/landing/)
 
 That's all, folks!
