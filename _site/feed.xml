@@ -47,5 +47,16 @@ sudo cpan -i Statistics::Distributions&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         <guid isPermaLink="true">http://ronkeizer.github.io//nonmem/update/2014/11/05/upgrading-to-yosemite/</guid>
       </item>
     
+      <item>
+        <title>Upgrading NONMEM to Yosemite test 2</title>
+        <description>&lt;p&gt;Apple released their new OS (Yosemite) a few weeks ago. Unfortunately upgrading to the new system breaks the installation of NONMEM, PsN, and Pirana. Here’s what I did to get up and running again. Altogether this should take less than 20 minutes. &lt;em&gt;Please note that I cannot be held liable for any damage caused directly or indirectly by following the advice below!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;blablabla&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Nov 2014 02:49:34 -0800</pubDate>
+        <link>http://ronkeizer.github.io//nonmem/update/2014/11/05/Test/</link>
+        <guid isPermaLink="true">http://ronkeizer.github.io//nonmem/update/2014/11/05/Test/</guid>
+      </item>
+    
   </channel>
 </rss>
