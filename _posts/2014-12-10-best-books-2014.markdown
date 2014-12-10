@@ -5,6 +5,8 @@ date:   2014-12-10 12:40:00
 categories: books
 ---
 
+![books]({{ site.url }}/assets/books.jpg)
+
 Yesterday, Bill Gates shared his list of [best books of 2014](http://www.gatesnotes.com/About-Bill-Gates/Best-Books-2014), which stimulated me to think about the best books I read this year. Unfortunately, recent fatherhood has kept me away from a lot of books I planned to read this year, but I did manage to squeeze in a couple of very interesting ones. These are my 5-star books from 2014:
 
 - __The boys in the Boat__ (Daniel James Brown): very powerful narrative about the 1936 US Olympic rowing team, a collection of working-class boys from the state of Washington that conquering the world.
