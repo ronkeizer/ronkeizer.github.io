@@ -7,30 +7,27 @@
     <atom:link href="http://ronkeizer.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Visual predictive checks: &#39;the good, the bad, and the ugly&#39;</title>
-        <description>&lt;p&gt;The VPC is the most commonly used diagnostic in pharmacometrics. That is not just my opinion, I also collected a bit of evidence: on a recent big pharmacometrics meeting (ACoP 2014) I noticed that about 90% of all posters that included model evaluation used a VPC to show model performance. The remainder 10% used either only standard GOF plots, while 1 poster showed prediction discrepancies (PDE, not NPDE).&lt;/p&gt;
+        <title>Best books of 2014</title>
+        <description>&lt;p&gt;Yesterday, Bill Gates shared his list of &lt;a href=&quot;http://www.gatesnotes.com/About-Bill-Gates/Best-Books-2014&quot;&gt;best books of 2014&lt;/a&gt;, which stimulated me to think about the best books I read this year. Unfortunately, recent fatherhood has kept me away from a lot of books I planned to read this year, but I did manage to squeeze in a couple of very interesting ones. These are my 5-star books from 2014:&lt;/p&gt;
 
-&lt;p&gt;While the VPC is clearly the most widely used diagnostic on this side of the Atlantic, there is a huge variety in how these plots are displayed and what (dis-)information they show. The VPC easily has five fairly different versions that are all quite commonly presented. However, I feel that if it comes to usefulness and power, some versions should be counted as more equal than others…&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The boys in the Boat&lt;/strong&gt; (Daniel James Brown): very powerful narrative about the 1936 US Olympic rowing team, a collection of working-class boys from the state of Washington that conquering the world.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Countdown to zero day&lt;/strong&gt; (Kim Zetter): The thrilling tale of the the Stuxnet virus, the first (known) cyberwarfare weapon that took down an Iranian nuclear plant. It also explains why we should be much more vigilant securing our public utilities.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cool Gray City of Love&lt;/strong&gt; (Gary Kamiya): An extremely engaging book about San Francisco’s short but exciting history. In 49 short stories the author visits places in and around SF to tell their history.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Zero to One&lt;/strong&gt;: About technological advance, entrepeneurship, and how the world works in general. Peter Thiel’s book transcends most other books written by Silicon Valley VCs (like &lt;strong&gt;The Hard Thing about Hard things&lt;/strong&gt; from Marc Andreessen also released this year and an interesting read) due to its more philosophic nature. The book is short, so I’m planning to re-read it a few times over the next few years.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;what-is-the-purpose-of-the-vpc&quot;&gt;What is the purpose of the VPC?&lt;/h2&gt;
-&lt;p&gt;In my view, the purpose is to see if the model can predict, for the exact same design as the model, the longitudinal (or an independent variable other than time) trend of the observed data as well as its variability for the population. &lt;/p&gt;
+&lt;h2 id=&quot;disappointments&quot;&gt;Disappointments&lt;/h2&gt;
 
-&lt;p&gt;So &lt;strong&gt;error 1&lt;/strong&gt; in my view is when  &lt;/p&gt;
+&lt;p&gt;This year I was looking forward a lot to the release of &lt;strong&gt;the Bone Clocks&lt;/strong&gt;, the new book by David Mitchell (author of Cloud Atlas). I’m sad to say it disappointed me a lot. Althought the narrative and dialogue was as strong as ever, the story really fell apart from me somewhere in Chapter 5 where it just got lost in holistic science-fiction mumbo-jumbo.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-should-the-vpc-show&quot;&gt;What should the VPC show?&lt;/h2&gt;
-&lt;p&gt;Let me start with some examples of what I think are ‘VPC’ that are not showing the right information.&lt;/p&gt;
+&lt;p&gt;A book by another favorite authors disappointed me too: &lt;strong&gt;the Circle&lt;/strong&gt;, by David Eggers is written around a very relevant theme and promised to be the &lt;strong&gt;1984&lt;/strong&gt; of our generation. Although it did stir up much-needed discussions about online privacy, I think it stretched beyond belief Silicon Valley’s tendency to disregard privacy and glorify technological advance. Not a bad read overall, but over-the-top.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-should-the-vpc-show-1&quot;&gt;What should the VPC show?&lt;/h2&gt;
-
-&lt;h2 id=&quot;binning&quot;&gt;Binning&lt;/h2&gt;
-&lt;p&gt;In my opinion, a fully automated approach has both advantages as disadvantages. The advantages are obvious: it is user-independent, it is easier, binning can be pre-specified in analysis plans, etc. However, it also has an important drawback, as it withholds users from actually looking at the data and thinking about the bin placement themselves. This becomes more important when there are no or few very spread-out clusters in the data, which can e.g. occur with routinely collected clinical data. For such cases, I am not convinced that the automated approaches will always select more optimal binning approaches than manual binning, and I actually would like to have more control. At this point I don’t have a clear-cut example of where manual binning worked better, but I will post it here if I encounter one. &lt;/p&gt;
-
-&lt;h2 id=&quot;the-ugly&quot;&gt;The ugly&lt;/h2&gt;
-&lt;p&gt;Finally, besides showing the right information, don’t forget that it would be nice if the plots are aesthetically appealing. Please keep in mind that nobody wants to look at plots with bright green or purple colors (also read &lt;a href=&quot;http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000HT&quot;&gt;this&lt;/a&gt;), and please don’t overlay 12,000 datapoints over your prediction intervals… &lt;/p&gt;
+&lt;p&gt;Please drop any suggestions you have in the comments below!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 22 Nov 2014 04:00:34 -0800</pubDate>
-        <link>http://ronkeizer.github.io//nonmem/update/2014/11/22/vpc-good-bad-ugly/</link>
-        <guid isPermaLink="true">http://ronkeizer.github.io//nonmem/update/2014/11/22/vpc-good-bad-ugly/</guid>
+        <pubDate>Wed, 10 Dec 2014 13:40:00 +0100</pubDate>
+        <link>http://ronkeizer.github.io//books/2014/12/10/best-books-2014/</link>
+        <guid isPermaLink="true">http://ronkeizer.github.io//books/2014/12/10/best-books-2014/</guid>
       </item>
     
       <item>
@@ -69,7 +66,7 @@ sudo cpan -i Statistics::Distributions&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;That’s all, folks!&lt;/p&gt;
 </description>
-        <pubDate>Wed, 05 Nov 2014 02:49:34 -0800</pubDate>
+        <pubDate>Wed, 05 Nov 2014 11:49:34 +0100</pubDate>
         <link>http://ronkeizer.github.io//nonmem/update/2014/11/05/upgrading-to-yosemite/</link>
         <guid isPermaLink="true">http://ronkeizer.github.io//nonmem/update/2014/11/05/upgrading-to-yosemite/</guid>
       </item>
