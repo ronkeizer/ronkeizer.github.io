@@ -7,30 +7,6 @@
     <atom:link href="http://ronkeizer.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>A Bayesian Christmas Carol</title>
-        <description>&lt;p&gt;Happy Christmas everybody! Thought it’d be nice to share the famous Christmas carol from George E.P. Box:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There’s no Theorem like Bayes Theorem&lt;br /&gt;
-Like no theorem we know&lt;br /&gt;
-Everything about it is appealing&lt;br /&gt;
-Everything about it is a wow&lt;br /&gt;
-Let out that a priori feeling&lt;br /&gt;
-You’ve been concealing up to now.&lt;br /&gt;
-… There’s no Theorem like Bayes Theorem&lt;br /&gt;
-Like no Theorem we know.&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(Taken from &lt;a href=&quot;https://books.google.it/books?id=_Kx5xVGuLRIC&amp;amp;pg=PA132&amp;amp;lpg=PA132&amp;amp;dq=there+no+theorem+like+bayes+theorem&amp;amp;source=bl&amp;amp;ots=LZUvA3VRCb&amp;amp;sig=L8KMZlWRhW2r3Y4yL23mLRyEQEo&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ei=-Z2RVLLUHMyMaKPOgaAN&amp;amp;redir_esc=y#v=onepage&amp;amp;q=there%20no%20theorem%20like%20bayes%20theorem&amp;amp;f=false&quot;&gt;this great book&lt;/a&gt;.)&lt;/p&gt;
-
-&lt;p&gt;And if you’re really inspired this X-mas, have a look at this great collection of &lt;a href=&quot;http://www.biostat.umn.edu/~brad/V9SingAlong.pdf&quot;&gt;Bayes-inspired songs&lt;/a&gt;, it has the full text to &lt;em&gt;There’s no Theorem like Bayes Theorem&lt;/em&gt; too…&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 Dec 2014 13:00:00 +0100</pubDate>
-        <link>http://ronkeizer.github.io//bayes/christmas/box/2014/12/20/bayesian-christmas/</link>
-        <guid isPermaLink="true">http://ronkeizer.github.io//bayes/christmas/box/2014/12/20/bayesian-christmas/</guid>
-      </item>
-    
-      <item>
         <title>Finally... the Word-free manuscript workflow?</title>
         <description>&lt;p&gt;While I have used Microsoft Word® for 20 years or so, it always
 frustrated the hell out of me, and apparently I’m &lt;a href=&quot;https://www.facebook.com/pages/I-Hate-Microsoft-Word/237942199602618&quot;&gt;not the only
@@ -124,9 +100,33 @@ I’ll still be using both tools, probably. The only thing left is for
 someone to integrate RStudio Server into Google Docs in some way, and
 we’ll have the perfect collaborative cloud-based manuscript writing workflow…&lt;/p&gt;
 </description>
-        <pubDate>Wed, 17 Dec 2014 22:40:00 +0100</pubDate>
-        <link>http://ronkeizer.github.io//science/word/microsoft/references/2014/12/17/word-free-workflow/</link>
-        <guid isPermaLink="true">http://ronkeizer.github.io//science/word/microsoft/references/2014/12/17/word-free-workflow/</guid>
+        <pubDate>Tue, 23 Dec 2014 15:40:00 +0100</pubDate>
+        <link>http://ronkeizer.github.io//science/word/microsoft/references/2014/12/23/word-free-workflow/</link>
+        <guid isPermaLink="true">http://ronkeizer.github.io//science/word/microsoft/references/2014/12/23/word-free-workflow/</guid>
+      </item>
+    
+      <item>
+        <title>A Bayesian Christmas Carol</title>
+        <description>&lt;p&gt;Happy Christmas everybody! Thought it’d be nice to share the famous Christmas carol from George E.P. Box:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There’s no Theorem like Bayes Theorem&lt;br /&gt;
+Like no theorem we know&lt;br /&gt;
+Everything about it is appealing&lt;br /&gt;
+Everything about it is a wow&lt;br /&gt;
+Let out that a priori feeling&lt;br /&gt;
+You’ve been concealing up to now.&lt;br /&gt;
+… There’s no Theorem like Bayes Theorem&lt;br /&gt;
+Like no Theorem we know.&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Taken from &lt;a href=&quot;https://books.google.it/books?id=_Kx5xVGuLRIC&amp;amp;pg=PA132&amp;amp;lpg=PA132&amp;amp;dq=there+no+theorem+like+bayes+theorem&amp;amp;source=bl&amp;amp;ots=LZUvA3VRCb&amp;amp;sig=L8KMZlWRhW2r3Y4yL23mLRyEQEo&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ei=-Z2RVLLUHMyMaKPOgaAN&amp;amp;redir_esc=y#v=onepage&amp;amp;q=there%20no%20theorem%20like%20bayes%20theorem&amp;amp;f=false&quot;&gt;this great book&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;And if you get inspired this X-mas (or bored out of your wits), have a look at this great collection of &lt;a href=&quot;http://www.biostat.umn.edu/~brad/V9SingAlong.pdf&quot;&gt;Bayes-inspired songs&lt;/a&gt;, it has the full text to &lt;em&gt;There’s no Theorem like Bayes Theorem&lt;/em&gt; too…&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Dec 2014 14:37:00 +0100</pubDate>
+        <link>http://ronkeizer.github.io//bayes/christmas/box/2014/12/23/bayesian-christmas/</link>
+        <guid isPermaLink="true">http://ronkeizer.github.io//bayes/christmas/box/2014/12/23/bayesian-christmas/</guid>
       </item>
     
       <item>
