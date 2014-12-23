@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Finally... the Word-free manuscript workflow? &#8211; Flat priors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Musings on pharmacometrics & clinical pharmacology, statistics, drug development, software engineering, innovation, and other random topics">
+    <meta name="author" content="Ron Keizer">
+    <meta name="keywords" content="science, word, microsoft, references">
+    <link rel="canonical" href="http://ronkeizer.github.io//science/word/microsoft/references/2014/12/23/word-free-workflow/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Finally... the Word-free manuscript workflow?">
+    <meta property="og:description" content="Musings on pharmacometrics & clinical pharmacology, statistics, drug development, software engineering, innovation, and other random topics">
+    <meta property="og:url" content="http://ronkeizer.github.io//science/word/microsoft/references/2014/12/23/word-free-workflow/">
+    <meta property="og:site_name" content="Flat priors">
+</head>
+
+<body class="">
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://ronkeizer.github.io/" class="site-title">Flat priors</a>
+      <nav class="site-nav right">
+        <a href="/about/">About</a>
+<a href="/contact/">Contact</a>
+
+      </nav>
+      <div class="clearfix"></div>
+      
+        <div class="social-icons">
+  <div class="left">
+    
+      <a class="fa fa-github" href="https://github.com/ronkeizer"></a>
+    
+    <a class="fa fa-rss" href="/feed.xml"></a>
+    
+      <a class="fa fa-twitter" href="https://twitter.com/ronpirana"></a>
+    
+    
+    
+      <a class="fa fa-envelope" href="mailto:ronkeizer@gmail.com"></a>
+    
+    
+  </div>
+  <div class="right">
+    
+    
+    
+  </div>
+</div>
+<div class="clearfix"></div>
+
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1 class="py2">Finally... the Word-free manuscript workflow?</h1>
+  <span class="post-meta">Dec 23, 2014</span><br>
+  
+  <span class="post-meta small">4 minute read</span>
+</div>
+
+<article class="post-content">
+  <p>While I have used Microsoft Word® for 20 years or so, it always
+frustrated the hell out of me, and apparently I’m <a href="https://www.facebook.com/pages/I-Hate-Microsoft-Word/237942199602618">not the only
+one</a>. The extreme bugginess (anyone ever managed to create a stable
+document longer than 50 pages?), the difficult formatting, the ugly
+equations, the annoying theming features, the proprietary file format
+(only partially solved with <em>.docx</em>), and so on. Why it is perfectly
+fine for writing a letter, for writing research papers it is pretty
+far from ideal. Obviously I have been continuosly looking around for
+alternatives for writing manuscripts, but the real <em>Word-free</em>
+workflow has so far eluded me.</p>
+
+<h1 id="wordhttpronkeizergithubioassetswordjpg"><img src="http://ronkeizer.github.io//assets/word.jpg" alt="Word" /></h1>
+
+<p><strong>OpenOffice</strong> is a potential alternative to Word, and it is a fairly
+nice product (and free), but its main drawback is that it is not fully
+compatible with Word. Especially its review functionality (showing
+notes, deletions, additions, etc) is not compatible. And that is the
+most important functionality when writing a research
+paper in collaboration with Word-users…</p>
+
+<p><strong>LaTeX</strong> is another obvious alternative. It actually has many
+advantages over Word: it is text-based (so no file degradation and easy version
+control), has beautiful typesetting, nice-looking equations, easy
+compilation to PDF, etc. For many manuals and reports that
+did not require collaboration I have used LaTeX a lot, and (learned to) love
+it. However, I work in a research field that is only partially made up
+of engineers, and LaTeX’s steep learning curve is not something that
+excites many of my collaborators. Which is no critique of them, I can
+easily see that LaTeX can be more frustrating than
+Word.</p>
+
+<p>Over the last few years, <strong>RStudio</strong> has evolved into the
+indispensible IDE for R, and by offering support for <strong>markdown</strong>,
+<strong>knitr</strong>, and <strong>pandoc</strong> it offers a great workflow for creating PDF
+manuscripts, and in a fully reproducible way too. Citations can be
+added fairly easily using BibTex (although it would be nice to have a
+simple reference manager in RStudio?). An almost perfect solution, one
+is inclined to think, but not yet a full alternative to Word, since
+the resulting manuscript (PDF) still has to be shared with
+co-authors. This is less than perfect since some collaborators are
+likely to have problems making notes and edits in PDF documents, and
+any edits still have to be re-entered manually into the source document.</p>
+
+<p>My usual workflow over the last few years has often been to start
+drafting research papers in <strong>Google Docs</strong>, and move to Word (or RStudio)
+when the time comes to add references and share the manuscript with
+co-authors. It has been mostly the lack of a reference manager in Google
+Docs that made it impractible to use for anything more complex than a
+conference abstract. So - until recently - this was not a viable
+alternative for research manuscripts either.</p>
+
+<p><em>So the perfect, ‘Word-free’ workflow does not exist?</em></p>
+
+<p>One would almost give up hope, but two recent new tools could turn out
+to be game-changers:</p>
+
+<ol>
+  <li>
+    <p><strong>RStudio and pandoc</strong> as of recently also support the <em>knitting</em>
+of R-markdown documents straight to Word. This way you can keep your
+co-authors happy by providing a Word document instead of PDF that they
+can more easily edit. The only remaining hurdle with this workflow is
+that collaborators’ edits and comments still need to be entered into
+the source document (unless the source document itself is
+shared). Officially, we can’t call this a <em>‘Word-free’</em> workflow, but at
+least we don’t have to actively write the document in Word, and we’ll be
+able to enjoy a frustration-free workday.</p>
+  </li>
+  <li>
+    <p>the new reference manager <strong>Paperpile</strong>. On the surface, Paperpile
+seems yet another reference manager, much like the already pretty
+awesome Mendeley and Zotero. The latter two products were vast
+improvements over the more ‘corporate’ (EndNote) or ‘buggy’ (Reference
+Manager) tools that were in use when I was in grad school. However,
+there is one extremely interesting aspect to
+<a href="https://paperpile.com/app">Paperpile</a>, and that is that it is able to
+cite articles from inside Google Docs. Therebey it basically removes Word
+from the equation! Needless to say, collaboration features are
+engrained into Google Docs, and even less tech-savvy collaborators
+will likeley be able to open a Google Doc and edit, right? When it is time to
+submit the paper to a journal, you’ll still have to save to Word, but
+this is probably as good as it gets at the moment.</p>
+  </li>
+</ol>
+
+<p>These two developments are great news. Google Docs is probably a more
+pleasing writing environment than RStudio, while the advantage of
+RStudio is that manuscripts are created in a reproducible workflow. So
+I’ll still be using both tools, probably. The only thing left is for
+someone to integrate RStudio Server into Google Docs in some way, and
+we’ll have the perfect collaborative cloud-based manuscript writing workflow…</p>
+
+</article>
+
+
+
+
+
+&nbsp;
+<br>
+
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'flatpriors'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+<!--       <small>
+        Crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).<br>
+        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">Github</a>.
+      </small>
+ -->    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
