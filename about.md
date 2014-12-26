@@ -15,7 +15,7 @@ _So... why a blog, exactly?_
 
 - I like writing, and '_practice makes perfect_', or in my case probably '_slightly worse_' (but that doesn't alliterate well)
 - Writing a blog is much more fun that writing journal articles.
-- I belief that many blogs (e.g. [this one](http://andrewgelman.com/), and [this one](http://www.michaeleisen.org/blog/)) have more direct and wide-spread impact on science than journal articles written by the same authors. Maybe not in a classical, high impact factor, peer-reviewed, _get's-you-tenure_ kind of way, but more in an actual real-world sense. (Needless to say I wouldn't dare compare this blog to those linked above).
+- I belief that many blogs (e.g. [this one](http://andrewgelman.com/), and [this one](http://www.michaeleisen.org/blog/)) have more direct and wide-spread impact on science than journal articles written by the same authors. Maybe not in a classical, high impact factor, peer-reviewed, _gets-you-tenure_ kind of way, but more in an actual real-world sense. (Needless to say I wouldn't dare compare this blog to those linked above).
 - I can't cram my thoughts in 140 characters, sorry.
 
 &nbsp;
