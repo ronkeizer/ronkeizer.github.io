@@ -100,7 +100,7 @@ I’ll still be using both tools, probably. The only thing left is for
 someone to integrate RStudio Server into Google Docs in some way, and
 we’ll have the perfect collaborative cloud-based manuscript writing workflow…&lt;/p&gt;
 </description>
-        <pubDate>Tue, 23 Dec 2014 15:40:00 +0100</pubDate>
+        <pubDate>Tue, 23 Dec 2014 06:40:00 -0800</pubDate>
         <link>http://ronkeizer.github.io//science/word/microsoft/references/2014/12/23/word-free-workflow/</link>
         <guid isPermaLink="true">http://ronkeizer.github.io//science/word/microsoft/references/2014/12/23/word-free-workflow/</guid>
       </item>
@@ -124,7 +124,7 @@ Like no Theorem we know.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;And if you get inspired this X-mas (or bored out of your wits), have a look at this great collection of &lt;a href=&quot;http://www.biostat.umn.edu/~brad/V9SingAlong.pdf&quot;&gt;Bayes-inspired songs&lt;/a&gt;, it has the full text to &lt;em&gt;There’s no Theorem like Bayes Theorem&lt;/em&gt; too…&lt;/p&gt;
 </description>
-        <pubDate>Tue, 23 Dec 2014 14:37:00 +0100</pubDate>
+        <pubDate>Tue, 23 Dec 2014 05:37:00 -0800</pubDate>
         <link>http://ronkeizer.github.io//bayes/christmas/box/2014/12/23/bayesian-christmas/</link>
         <guid isPermaLink="true">http://ronkeizer.github.io//bayes/christmas/box/2014/12/23/bayesian-christmas/</guid>
       </item>
@@ -150,7 +150,7 @@ Like no Theorem we know.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Please drop any suggestions you have in the comments below!&lt;/p&gt;
 </description>
-        <pubDate>Wed, 10 Dec 2014 13:40:00 +0100</pubDate>
+        <pubDate>Wed, 10 Dec 2014 04:40:00 -0800</pubDate>
         <link>http://ronkeizer.github.io//books/2014/12/10/best-books-2014/</link>
         <guid isPermaLink="true">http://ronkeizer.github.io//books/2014/12/10/best-books-2014/</guid>
       </item>
@@ -162,7 +162,7 @@ Like no Theorem we know.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;: You need to re-install gcc/gfortran. You can install from source, or from e.g. HomeBrew, but I just chose to take the binaries from &lt;a href=&quot;http://hpc.sourceforge.net/&quot;&gt;this page&lt;/a&gt; which had just updated their versions. Download gcc and gfortran for Yosemite. Then in the console run:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Downloads
-sudo tar -xvf gcc-5.0-bin.tar -C / 
+sudo tar -xvf gcc-5.0-bin.tar -C /
 sudo tar -xvf gfortran-5.0-bin.tar -C /&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;: Re-install the Apple developer tools for Yosemite. &lt;a href=&quot;https://developer.apple.com/downloads/index.action#&quot;&gt;Download&lt;/a&gt; and install the ones for OSX 10.10.&lt;/p&gt;
@@ -190,8 +190,24 @@ sudo cpan -i Statistics::Distributions&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Step 5&lt;/strong&gt;: To make Pirana work again, the only thing you need to do is re-install XQuartz, download &lt;a href=&quot;http://xquartz.macosforge.org/landing/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;That’s all, folks!&lt;/p&gt;
+
+&lt;h3 id=&quot;update-jan-7th-2015&quot;&gt;Update Jan 7th 2015&lt;/h3&gt;
+
+&lt;p&gt;If after upgrading you encounter the following error when running a model with PsN:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Pirana: starting execute on run10.mod
+dyld: Library not loaded: /System/Library/Perl/5.18/darwin-thread-multi-2level/CORE/libperl.dylib
+Referenced from: /usr/bin/perl5.18
+Reason: Incompatible library version: perl5.18 requires version 5.18.0 or later, but libperl.dylib provides version 5.16.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;in Pirana go to &lt;em&gt;Settings&lt;/em&gt; –&amp;gt; &lt;em&gt;Environment variables&lt;/em&gt; –&amp;gt; &lt;em&gt;Set other environment variables&lt;/em&gt;.
+Add in this text-box:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;DYLD_LIBRARY_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This should basically clear this variable from the environment, and PsN should run without errors again.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 05 Nov 2014 11:49:34 +0100</pubDate>
+        <pubDate>Wed, 05 Nov 2014 02:49:34 -0800</pubDate>
         <link>http://ronkeizer.github.io//nonmem/update/2014/11/05/upgrading-to-yosemite/</link>
         <guid isPermaLink="true">http://ronkeizer.github.io//nonmem/update/2014/11/05/upgrading-to-yosemite/</guid>
       </item>

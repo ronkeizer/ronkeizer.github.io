@@ -20,6 +20,9 @@
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     
 
+    <!-- MathJax -->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
     <!-- Open Graph -->
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
@@ -90,7 +93,7 @@
 <p><strong>Step 1</strong>: You need to re-install gcc/gfortran. You can install from source, or from e.g. HomeBrew, but I just chose to take the binaries from <a href="http://hpc.sourceforge.net/">this page</a> which had just updated their versions. Download gcc and gfortran for Yosemite. Then in the console run:</p>
 
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ~/Downloads
-sudo tar -xvf gcc-5.0-bin.tar -C / 
+sudo tar -xvf gcc-5.0-bin.tar -C /
 sudo tar -xvf gfortran-5.0-bin.tar -C /</code></pre></div>
 
 <p><strong>Step 2</strong>: Re-install the Apple developer tools for Yosemite. <a href="https://developer.apple.com/downloads/index.action#">Download</a> and install the ones for OSX 10.10.</p>
@@ -118,6 +121,22 @@ sudo cpan -i Statistics::Distributions</code></pre></div>
 <p><strong>Step 5</strong>: To make Pirana work again, the only thing you need to do is re-install XQuartz, download <a href="http://xquartz.macosforge.org/landing/">here</a></p>
 
 <p>That’s all, folks!</p>
+
+<h3 id="update-jan-7th-2015">Update Jan 7th 2015</h3>
+
+<p>If after upgrading you encounter the following error when running a model with PsN:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">Pirana: starting execute on run10.mod
+dyld: Library not loaded: /System/Library/Perl/5.18/darwin-thread-multi-2level/CORE/libperl.dylib
+Referenced from: /usr/bin/perl5.18
+Reason: Incompatible library version: perl5.18 requires version 5.18.0 or later, but libperl.dylib provides version 5.16.0</code></pre></div>
+
+<p>in Pirana go to <em>Settings</em> –&gt; <em>Environment variables</em> –&gt; <em>Set other environment variables</em>.
+Add in this text-box:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">DYLD_LIBRARY_PATH</span><span class="o">=</span></code></pre></div>
+
+<p>This should basically clear this variable from the environment, and PsN should run without errors again.</p>
 
 </article>
 
