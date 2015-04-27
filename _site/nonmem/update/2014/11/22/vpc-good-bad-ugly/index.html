@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Visual predictive checks: 'the good, the bad, and the ugly' &#8211; Flat priors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Musings on pharmacometrics & clinical pharmacology, statistics, drug development, software engineering, innovation, and other random topics">
+    <meta name="author" content="Ron Keizer">
+    <meta name="keywords" content="nonmem, update">
+    <link rel="canonical" href="http://ronkeizer.github.io//nonmem/update/2014/11/22/vpc-good-bad-ugly/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css" type="text/css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Visual predictive checks: 'the good, the bad, and the ugly'">
+    <meta property="og:description" content="Musings on pharmacometrics & clinical pharmacology, statistics, drug development, software engineering, innovation, and other random topics">
+    <meta property="og:url" content="http://ronkeizer.github.io//nonmem/update/2014/11/22/vpc-good-bad-ugly/">
+    <meta property="og:site_name" content="Flat priors">
+</head>
+
+<body class="">
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://ronkeizer.github.io/" class="site-title">Flat priors</a>
+      <nav class="site-nav right">
+        <a href="/about/">About</a>
+<a href="/contact/">Contact</a>
+
+      </nav>
+      <div class="clearfix"></div>
+      
+        <div class="social-icons">
+  <div class="left">
+    
+      <a class="fa fa-github" href="https://github.com/ronkeizer"></a>
+    
+    <a class="fa fa-rss" href="/feed.xml"></a>
+    
+      <a class="fa fa-twitter" href="https://twitter.com/ronpirana"></a>
+    
+    
+    
+      <a class="fa fa-envelope" href="mailto:ronkeizer@gmail.com"></a>
+    
+    
+  </div>
+  <div class="right">
+    
+    
+    
+  </div>
+</div>
+<div class="clearfix"></div>
+
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1 class="py2">Visual predictive checks: 'the good, the bad, and the ugly'</h1>
+  <span class="post-meta">Nov 22, 2014</span><br>
+  
+  <span class="post-meta small">2 minute read</span>
+</div>
+
+<article class="post-content">
+  <p>The VPC is the most commonly used diagnostic in pharmacometrics. That is not just my opinion, I also collected a bit of evidence: on a recent big pharmacometrics meeting (ACoP 2014) I noticed that about 90% of all posters that included model evaluation used a VPC to show model performance. The remainder 10% used either only standard GOF plots, while 1 poster showed prediction discrepancies (PDE, not NPDE).</p>
+
+<p>While the VPC is clearly the most widely used diagnostic on this side of the Atlantic, there is a huge variety in how these plots are displayed and what (dis-)information they show. The VPC easily has five fairly different versions that are all quite commonly presented. However, I feel that if it comes to usefulness and power, some versions should be counted as more equal than others…</p>
+
+<h2 id="what-is-the-purpose-of-the-vpc">What is the purpose of the VPC?</h2>
+<p>In my view, the purpose is to see if the model can predict, for the exact same design as the model, the longitudinal (or an independent variable other than time) trend of the observed data as well as its variability for the population. </p>
+
+<p>So <strong>error 1</strong> in my view is when  </p>
+
+<h2 id="what-should-the-vpc-show">What should the VPC show?</h2>
+<p>Let me start with some examples of what I think are ‘VPC’ that are not showing the right information.</p>
+
+<h2 id="what-should-the-vpc-show-1">What should the VPC show?</h2>
+
+<h2 id="binning">Binning</h2>
+<p>In my opinion, a fully automated approach has both advantages as disadvantages. The advantages are obvious: it is user-independent, it is easier, binning can be pre-specified in analysis plans, etc. However, it also has an important drawback, as it withholds users from actually looking at the data and thinking about the bin placement themselves. This becomes more important when there are no or few very spread-out clusters in the data, which can e.g. occur with routinely collected clinical data. For such cases, I am not convinced that the automated approaches will always select more optimal binning approaches than manual binning, and I actually would like to have more control. At this point I don’t have a clear-cut example of where manual binning worked better, but I will post it here if I encounter one. </p>
+
+<h2 id="the-ugly">The ugly</h2>
+<p>Finally, besides showing the right information, don’t forget that it would be nice if the plots are aesthetically appealing. Please keep in mind that nobody wants to look at plots with bright green or purple colors (also read <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000HT">this</a>), and please don’t overlay 12,000 datapoints over your prediction intervals… </p>
+
+</article>
+
+
+
+
+
+&nbsp;
+<br>
+
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'flatpriors'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+<!--       <small>
+        Crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).<br>
+        &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">Github</a>.
+      </small>
+ -->    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
