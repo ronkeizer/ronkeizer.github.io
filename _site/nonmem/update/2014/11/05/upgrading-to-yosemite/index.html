@@ -84,7 +84,7 @@
   <h1 class="py2">Upgrading NONMEM to Yosemite</h1>
   <span class="post-meta">Nov 5, 2014</span><br>
   
-  <span class="post-meta small">1 minute read</span>
+  <span class="post-meta small">2 minute read</span>
 </div>
 
 <article class="post-content">
@@ -132,11 +132,11 @@ Referenced from: /usr/bin/perl5.18
 Reason: Incompatible library version: perl5.18 requires version 5.18.0 or later, but libperl.dylib provides version 5.16.0</code></pre></div>
 
 <p>in Pirana go to <em>Settings</em> –&gt; <em>Environment variables</em> –&gt; <em>Set other environment variables</em>.
-Add in this text-box:</p>
+Add in the text-box:</p>
 
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">DYLD_LIBRARY_PATH</span><span class="o">=</span></code></pre></div>
 
-<p>This should basically clear this variable from the environment, and PsN should run without errors again.</p>
+<p>and save the settings. This will basically clear this variable from the environment, and PsN should run without errors again.</p>
 
 </article>
 
